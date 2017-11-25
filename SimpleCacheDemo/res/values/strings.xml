@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SimpleCacheDemo</string>
+    <string name="hello_world">SimpleCacheDemo </string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_save_drawable">SaveDrawableActivity</string>
+    <string name="title_activity_save_json_array">SaveJsonArrayActivity</string>
+    <string name="string_cache">String Cache </string>
+    <string name="jsonarray_cache">JsonArray Cache </string>
+    <string name="jsonobject_cache">JsonObject Cache </string>
+    <string name="bitmap_cache">Bitmap Cache </string>
+    <string name="media_cache">Media Cache </string>
+    <string name="drawable_cache">Drawable Cache </string>
+    <string name="object_cache">Object Cache </string>
+
+</resources>

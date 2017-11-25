@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.alex.simplecachedemo"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+    <uses-sdk
+        android:minSdkVersion="17"
+        android:targetSdkVersion="23" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.alex.simplecachedemo.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.alex.simplecachedemo.SaveBitmapActivity" />
+        <activity android:name="com.alex.simplecachedemo.SaveJsonObjectActivity" />
+        <activity android:name="com.alex.simplecachedemo.SaveObjectActivity" />
+        <activity android:name="com.alex.simplecachedemo.SaveStringActivity" />
+        <activity android:name="com.alex.simplecachedemo.SaveMediaActivity" />
+        <activity
+            android:name="com.alex.simplecachedemo.SaveDrawableActivity"
+            android:label="@string/title_activity_save_drawable" >
+        </activity>
+        <activity
+            android:name="com.alex.simplecachedemo.SaveJsonArrayActivity"
+            android:label="@string/title_activity_save_json_array" >
+        </activity>
+    </application>
+
+</manifest>
